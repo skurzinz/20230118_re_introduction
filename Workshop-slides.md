@@ -89,7 +89,7 @@ Wien, 2023-01-18
 * `*[@ref[not(starts-with(., 'http'))]]`
 * `//refsDecl/p[not(contains(normalize-space(),preceding::titleStmt/title[@xml:lang='de']/normalize-space()))]`
 * <https://www.i-d-e.de/publikationen/weitereschriften/xml-kurzreferenzen/>
-* <https://www.data2type.de/en/xml-xslt-xslfo/xpath>
+* <https://www.data2type.de/en/xml-xslt-xslfo/xpath> etc.
 
 
 --- 
@@ -124,7 +124,7 @@ Wien, 2023-01-18
 
 * Anwendungsfall: Datenkonsolidierung
 * <https://openrefine.org/>
-* läuft lokal
+* läuft lokal, lädt aber auch externe Daten (Bsp. https://mrp.oeaw.ac.at/resolver/resolve-doc.xql?doc-name=listperson.xml&collection=indices&directory=indices)
 * Beispiel `tei:index//tei:term`
 
 ---
