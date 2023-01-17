@@ -10,7 +10,7 @@ stephan.kurz@oeaw.ac.at
 </div>
 
 <div id="bottom-right">
-<img src="assets/ihb_deutsch_web70.jpg"/><br/>
+<https://skurzinz.github.io/20230118_re_introduction/><br/>
 Wien, 2023-01-18
 </div>
 
@@ -57,6 +57,39 @@ Wien, 2023-01-18
 
 ---
 
+## XPath direkt in Oxygen
+
+* (oder im Browser oder sonstwo)
+* `//rs[not(@ref)][ancestor::body]`
+* `*[@ref[not(starts-with(., 'http'))]]`
+* <https://www.i-d-e.de/publikationen/weitereschriften/xml-kurzreferenzen/>
+* <https://www.data2type.de/en/xml-xslt-xslfo/xpath>
+
+---
+
+## Manual data input 
+
+* "keep the human in the loop" kostet! 
+* TEI-Daten Cleanup mit Kombination von RE und XPath
+
+---
+
+## 20 Min `play time`
+
+* …
+* *supervised learning*
+
+--- 
+
+## Open Refine
+
+* Anwendungsfall: Datenkonsolidierung
+* <https://openrefine.org/>
+* läuft lokal
+* Beispiel `tei:index//tei:term`
+
+---
+
 ## ☛
 
-* Folien https://skurzinz.github.io/
+* Folien https://skurzinz.github.io/20230118_re_introduction/
