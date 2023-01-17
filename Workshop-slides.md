@@ -59,6 +59,4 @@ Wien, 2023-01-18
 
 ## ☛
 
-* einsehbarer *work in progress*:<br/>https://mpr.acdh.oeaw.ac.at
-
-* Folien https://skurzinz.github.io/20210319-presentation-mpr
+* Folien https://skurzinz.github.io/
