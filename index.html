@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Werkzeugwissen automatisierte Textbearbeitung</title>
+
+		<!--<link rel="stylesheet" href="reveal.js/dist/reset.css" type="text/css"/>-->
+		<link rel="stylesheet" href="reveal.js/dist/reveal.css" type="text/css"/>
+		<link rel="stylesheet" href="reveal.js/dist/theme/black.css" type="css" id="theme"/>
+		<link rel="stylesheet" href="serif.css" type="css"/>
+		<style>
+#bottom-left {
+    bottom: .5rem;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: left;
+}
+#bottom-right {
+    bottom: .5rem;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: right;
+}
+#bottom-center {
+    bottom: .5rem;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+}
+#top-right {
+    top: .5rem;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: right;
+}
+ul {
+list-style-type: none;
+}
+body {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+	font-size: 26px;
+	font-weight: 100;
+	color: #333 !important;
+	background-color: #eee;
+}
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        			<section data-markdown="Workshop-slides.md">
+	        	  	</section>
+			</div>
+		</div>
+
+		<script src="reveal.js/dist/reveal.js"></script>
+		<script src="reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="reveal.js/plugin/zoom/zoom.js"></script>
+		<script>
+		Reveal.initialize({
+		    plugins: [ RevealMarkdown, RevealZoom ]
+		  });
+		</script>
+	</body>
+</html>
