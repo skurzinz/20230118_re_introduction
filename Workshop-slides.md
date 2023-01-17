@@ -64,6 +64,22 @@ Wien, 2023-01-18
 * Bedingungen mit `[]`
 * `fn:matches()` erlaubt Regular Expressions!
 
+
+---
+
+## XPath Axes
+
+* <https://www.w3schools.com/xml/xpath_axes.asp>
+* `ancestor::` `ancestor-or-self::`
+* `parent::` `../`
+* `child::` `/`
+* `descendant::` `descendant-or-self::` `//`
+* `self::` `.`
+* `preceding::` `preceding-sibling::`
+* `following::` `following-sibling::`
+* `attribute::` `namespace::`
+
+
 ---
 
 ## XPath direkt in Oxygen
@@ -71,16 +87,20 @@ Wien, 2023-01-18
 * (oder im Browser oder sonstwo)
 * `//rs[not(@ref)][ancestor::body]`
 * `*[@ref[not(starts-with(., 'http'))]]`
+* `//refsDecl/p[not(contains(normalize-space(),preceding::titleStmt/title[@xml:lang='de']/normalize-space()))]`
 * <https://www.i-d-e.de/publikationen/weitereschriften/xml-kurzreferenzen/>
 * <https://www.data2type.de/en/xml-xslt-xslfo/xpath>
 
+
 --- 
+
 
 ## Komplexere Umformungen in Oxygen
 
-* Werkzeuge > XML-Refaktorierung
+* Werkzeuge -- XML-Refaktorierung
 * Transformation mit XSL-T 
 * Abfrage mit XQuery
+
 
 ---
 
@@ -95,6 +115,8 @@ Wien, 2023-01-18
 
 * …
 * *supervised learning*
+* …
+
 
 --- 
 
