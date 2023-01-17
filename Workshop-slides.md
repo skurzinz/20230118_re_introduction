@@ -26,8 +26,8 @@ Wien, 2023-01-18
 
 ## Tools 
 
-* Oxygen
-* VS Code, Notepad++ oder andere Texteditoren
+* [Oxygen](https://oxygenxml.com)
+* [VS Code](https://code.visualstudio.com/), [Notepad++](https://notepad-plus-plus.org/) oder andere Texteditoren
 * MS Word? 
 * OpenRefine? 
 
@@ -57,6 +57,15 @@ Wien, 2023-01-18
 
 ---
 
+## XPath 
+
+* Adressierung von Elementen im XML-Baum
+* Elemente und Attribute
+* Bedingungen mit `[]`
+* `fn:matches()` erlaubt Regular Expressions!
+
+---
+
 ## XPath direkt in Oxygen
 
 * (oder im Browser oder sonstwo)
@@ -64,6 +73,14 @@ Wien, 2023-01-18
 * `*[@ref[not(starts-with(., 'http'))]]`
 * <https://www.i-d-e.de/publikationen/weitereschriften/xml-kurzreferenzen/>
 * <https://www.data2type.de/en/xml-xslt-xslfo/xpath>
+
+--- 
+
+## Komplexere Umformungen in Oxygen
+
+* Werkzeuge > XML-Refaktorierung
+* Transformation mit XSL-T 
+* Abfrage mit XQuery
 
 ---
 
@@ -93,3 +110,4 @@ Wien, 2023-01-18
 ## ☛
 
 * Folien https://skurzinz.github.io/20230118_re_introduction/
+* <https://github.com/skurzinz/20230118_re_introduction>
