@@ -38,6 +38,7 @@ Wien, 2023-01-18
 * Suche in der aktuellen Datei
 * Suche in (Teilen des) Projektverzeichnis
 * kontextbedingte Suche nach XPath
+* dafür kann Oxygen keine Lookaround-Regex
 
 ---
 
@@ -46,6 +47,7 @@ Wien, 2023-01-18
 * `Wien.+?\b` 
 * `[Ee]+rgo(\w+ter)?`
 * `(\d{4})-(\d{2})-(\d{2})` ==> `$3\.$2\.$1`
+* `perl -i -0pe 's#(?<=footnote.\{\\text..\{)\s+##g;' *.tex;` 
 
 ---
 
