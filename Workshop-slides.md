@@ -21,6 +21,8 @@ Wien, 2023-01-18
 * Suchen und Ersetzen mit Mustervergleich/regular expressions
 * kontextabhängige Suchen
 * Umformung von Datenstrukturen mit XSL? 
+* Kollaborative Mitschrift siehe [GoogleDoc](https://docs.google.com/document/d/1qXx23yhYh6v8SZzWtSx6QhwDsvgnjawpwnzEKdOIH0Y/edit?usp=sharing)
+
 
 ---
 
