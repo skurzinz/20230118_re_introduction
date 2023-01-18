@@ -54,6 +54,7 @@ Wien, 2023-01-18
 * <https://regexlearn.com/learn/regex101>
 * <https://regex101.com/>
 * <https://regexcrossword.com/>
+* Word "wildcard"/"Platzhalter" Syntax [hier](https://support.microsoft.com/en-us/office/examples-of-wildcard-characters-939e153f-bd30-47e4-a763-61897c87b3f4)
 
 ---
 
@@ -92,7 +93,7 @@ Wien, 2023-01-18
 * <https://www.data2type.de/en/xml-xslt-xslfo/xpath> etc.
 
 
---- 
+---
 
 
 ## Komplexere Umformungen in Oxygen
@@ -118,7 +119,7 @@ Wien, 2023-01-18
 * …
 
 
---- 
+---
 
 ## Open Refine
 
